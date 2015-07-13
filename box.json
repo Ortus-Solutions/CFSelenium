@@ -1,0 +1,84 @@
+{
+    "name":"CFSelenium",
+    "version":"2.0.0",
+    "author":"Ortus Solutions, Corp",
+    "homepage":"https://github.com/Ortus-Solutions/CFSelenium",
+    "documentation":"https://github.com/Ortus-Solutions/CFSelenium/wiki",
+    "repository":{
+        "type":"git",
+        "url":"https://github.com/Ortus-Solutions/CFSelenium.git"
+    },
+    "bugs":"https://github.com/Ortus-Solutions/CFSelenium/issues",
+    "slug":"cfselenium",
+    "shortDescription":"CFSelenium provides a native client library for Selenium-RC",
+    "description":"CFSelenium is a ColdFusion Component (CFC) which provides a native client library for Selenium-RC. This allows you to write tests, using CFML, which will drive a browser and verify results via Selenium-RC.",
+    "type":"projects",
+    "keywords":[
+        "cfselenium",
+        "testing",
+        "selenium"
+    ],
+    "engines":[
+        {
+            "type":"lucee",
+            "version":">=4.5.x"
+        },
+        {
+            "type":"adobe",
+            "version":">=10"
+        }
+    ],
+    "projectURL":"https://github.com/Ortus-Solutions/CFSelenium",
+    "license":[
+        {
+            "type":"Apache2",
+            "url":"http://www.apache.org/licenses/LICENSE-2.0"
+        }
+    ],
+    "contributors":[
+        
+    ],
+    "dependencies":{
+        
+    },
+    "devDependencies":{
+        "testbox":"2.0.0"
+    },
+    "installPaths":{
+        "testbox":"testbox"
+    },
+    "ignore":[
+        "**/.*",
+        "test",
+        "tests"
+    ],
+    "testbox":{
+        "runner":[
+            {
+                "default":""
+            }
+        ],
+        "labels":[
+            
+        ],
+        "reporter":"",
+        "reporterResults":"",
+        "bundles":[
+            ""
+        ],
+        "directory":{
+            "mapping":"",
+            "recurse":true
+        },
+        "watchers":[
+            
+        ],
+        "notify":{
+            "emails":[
+                
+            ],
+            "growl":"",
+            "url":""
+        }
+    }
+}
